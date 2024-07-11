@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com Ciência</title>
+    <meta name="description" content="Site de Física para ensino básico, ensino médio e ensino superior">
+    
+    <link rel="shortcut icon" href="/_midias/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/_estilos/style.css" media="all">
+    <link rel="stylesheet" href="/_estilos/style-pc.css" media="screen and (min-width: 1180px)">
+    <link rel="stylesheet" href="/_estilos/print.css" media="print">
+
+    <script src="/_scripts/script.js" defer></script>
+    <script src="/_scripts/random.js" defer></script>
+</head>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 18rem auto;
+        }
+
+        .nav3 {
+            height: 100%;
+            /* display: block; */
+            
+        }
+
+        .jogos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        #nav03 {
+            background: var(--cor4);
+            color: white;
+            padding:  0.3em 0.3em;
+            transition: 0.3s;
+        }
+
+    </style>
+<body>
+    <header></header>
+    <main>
+        <div class="main" id="main">
+            <nav class="nav3" id="nav3">
+                <h3>Filtro</h3>
+                <fieldset>
+                    <legend>Tipo</legend>
+                    <input type="checkbox" name="cjogo" id="cjogo"> <label for="cjogo">Jogos</label>
+                    <input type="checkbox" name="clab" id="clab"><label for="clab">Lab. virtuais</label>
+                </fieldset>
+            </nav>
+            <div class="jogos" id="jogos">
+                <h3>Jogos</h3>
+                <div class="div"><img src="_midia/a.jpg" alt=""></div>
+                <div class="div"><img src="_midia/cb.webp" alt=""></div>
+                <div class="div"><img src="_midia/a.jpg" alt=""></div>
+                <div class="div"><img src="_midia/cb.webp" alt=""></div>
+                <div class="div"><img src="_midia/a.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- <div id="ad1" class="ad"></div> -->
+        <div class="update">Última atualização: 20/06/2024</div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Física para ensino básico, ensino médio e ensino superior">
+    <title>Com Ciência</title>
+    
+    <link rel="shortcut icon" href="/_midias/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/_estilos/style.css" media="all">
+    <link rel="stylesheet" href="/_estilos/print.css" media="print">
+
+    <script src="/_scripts/script.js" defer></script>
+    <script src="/_scripts/random.js" defer></script>
+
+    <style>
+        #nav01 {
+            background: var(--cor4);
+            color: white;
+            padding:  0.3em 0.3em;
+            transition: 0.3s;
+        }
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 50vh;
+            max-height: 500px;
+
+            font-family: DynaPuff;
+            color: #0EA5FF;
+        }
+
+        main > p {
+            font-size: clamp(50px, 13vw, 150px);
+        }
+
+        main > section > ul > li {
+            display: flex;
+            flex-wrap: wrap;
+            width: 70vh;
+            max-width: 400px;
+            margin: auto;
+        }
+        main > section > ul > li > a {
+            width: 80vh;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header></header>
+
+    <main>    
+        <p class="home">
+            Bem-vindo
+        </p>
+        <h3>Links abaixo</h3>
+        <section>
+            <ul>
+                <li><a href="01/trilha/00.html" class="botao">"Não sei nada de Física"<h3>Clique aqui</h3></a></li>
+                <li><a href="#" id="random" onclick="random()" class="botao">Curiosidade do dia</a></li>
+                <li><a href="" class="botao"  onclick="lupa()">Pesquise sua questão</a></li>
+                <li><a href="" class="botao">Monte sua lista de exercícios</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
