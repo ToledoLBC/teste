@@ -8,8 +8,7 @@ botoes.innerHTML = `
         <button type="button" id="info" class="button" onclick="info()">
             <img src="/teste/midias/icon-info.svg" id="iinfo" class="icon" alt="Informação">
         </button>
-        <div class="warn" id="warn">
-        </div>
+        <div class="warn" id="warn"></div>
         <button type="button" id="maxi" class="button">
             <img src="/teste/midias/icon-maxi.svg" id="imaxi" class="icon" alt="Maximizar" onclick="maxi()">
         </button>
