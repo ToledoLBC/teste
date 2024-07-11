@@ -20,13 +20,11 @@ const nav1 = document.getElementById('nav1');
 nav1.innerHTML = `
 <a href="./" id="nav01">Home</a>
 <a href="./02/" id="nav02">Conteúdo</a>
-<a href="03/" id="nav03">Jogos</a>
-<a href="04/" id="nav04">Artigos</a>
-<a href="./teste/05/" id="nav05">Sobre</a>
+<a href="./03/" id="nav03">Jogos</a>
+<a href="./04/" id="nav04">Artigos</a>
+<a href="./05/" id="nav05">Sobre</a>
 
 <button id="lupa" onclick="lupa()"><span class="material-symbols-outlined">search</span></button>
-
-/*ratata*/
 
 <div id="search">
     <form action="../_php/search.php">
