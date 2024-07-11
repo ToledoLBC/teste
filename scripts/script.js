@@ -26,6 +26,8 @@ nav1.innerHTML = `
 
 <button id="lupa" onclick="lupa()"><span class="material-symbols-outlined">search</span></button>
 
+/*ratata*/
+
 <div id="search">
     <form action="../_php/search.php">
       <input type="text" placeholder="Procurar.." name="search">
