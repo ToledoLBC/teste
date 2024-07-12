@@ -16,7 +16,7 @@ body {
 h1 {
     position: relative;
     text-align: center;
-    font-size: 30px;
+    width: 80%;
     overflow: hidden;
 }
 
