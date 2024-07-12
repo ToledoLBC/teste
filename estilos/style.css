@@ -95,10 +95,13 @@ h2 {
     padding: 10px;
     color: var(--cor5);
     font-size: 1.2rem;
+    text-align: center;
 }
 
 h3 {
-    font-family: DynaPuff;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 0.5em;
 }
 
 /* NAV */
@@ -262,6 +265,7 @@ nav > ul > li > a:hover {
 /* MAIN */
 
 main {
+    /* display: block; */
     background-color: rgb(255, 255, 255);
 }
 
