@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
@@ -15,9 +16,8 @@ body {
 h1 {
     position: relative;
     text-align: center;
-    color: white;
     font-size: 50px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 h2 {
@@ -99,6 +99,5 @@ input { /* caixa onde escreve */
 footer {
     position: absolute;
     bottom: 2px;
-    right: 2px;
-    color: white;
+    left: 2px;
 }
